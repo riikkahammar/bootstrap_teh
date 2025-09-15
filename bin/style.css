@@ -1,0 +1,64 @@
+/* Navigoinnin ulkonäkö */
+.navbar-custom {
+    background-color: rgb(111, 114, 143);
+}
+.navbar-custom .navbar-text {
+    color:#FFFFFF;
+}
+.navbar-custom .navbar-nav .nav-link {
+    color:#FFFFFF;
+}
+/* Säiliön ulkonäkö */
+.container {
+    background-color: rgb(111, 114, 143);
+}
+.container .container-text {
+    color:rgb(111, 114, 143);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* Karusellin ulkonäkö */
+.carousel-item img {
+    height: 400px;
+    width: 600px;
+    object-fit: cover;
+}
+.carousel-item.active {
+    height: 400px;
+    width: 600px;
+    object-fit: cover;
+}
+/* Yleinen sisällön keskittämiseen käytettävä apupala */
+.center-content {
+  display: flex;
+  justify-content: center;
+}
+/* Taulukon ulkonäkö */
+.my-table {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* Korttien kuvien ulkonäkö */
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+/* Säiliön vaihtoehtoinen ulkonäkö */
+.container2 {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+/* korttien vaihtoehtoinen ulkonäkö */
+.card-img-top2 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    object-fit: cover;
+    max-height: 300px;
+}

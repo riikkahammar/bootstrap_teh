@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Pohjustetaan Bootstrap ja otetaan tyylit käyttöön style.css tiedostosta -->
+    <title>Soppa & Kauha</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <main>
+        <!-- Luodaan sivuston navigaatio -->
+        <nav class="navbar navbar-custom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <!-- Yläkulman logokuva ja teksti -->
+                    <img src="img/logo2.png" alt="Logo" width="50">
+                    <span class="navbar-text">S & K</span>
+                </a>
+                <!-- Luodaan "hampurilainen", jonka alle navigaatio laitetaan -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Linkitetään sivustot navigaatioon -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="etusivu.html">Etusivu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="yhteystiedot.html">Meistä</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="UKK.html">UKK</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Sivuston otsikko ja sen alla korttikokoelma -->
+        <h2 class="text-center">Meistä</h2>
+        <div class="card-group" style="margin-bottom: 30px; margin-top: 30px;">
+            <!-- Asetetaan kuvat ja tekstit kokoelmaan -->
+            <div class="card text-center">
+                <img src="img/kokki2.png" class="card-img-top2" alt="Kuva1">
+                <div class="card-body">
+                    <h5 class="card-title">Taina Hämäläinen</h5>
+                    <p class="card-text">Pääkokki</p>
+                </div>
+            </div>
+            <div class="card text-center">
+                <img src="img/kokki3.png" class="card-img-top2" alt="Kuva2">
+                <div class="card-body">
+                    <h5 class="card-title">Inka Kangas</h5>
+                    <p class="card-text">Apukokki</p>
+                </div>
+            </div>
+            <div class="card text-center">
+                <img src="img/kokki1.png" class="card-img-top2" alt="Kuva3">
+                <div class="card-body">
+                    <h5 class="card-title">Topi Jokinen</h5>
+                    <p class="card-text">Apukokki</p>
+                </div>
+            </div>
+        </div>
+        
+        <h4 class="text-center">Yhteystiedot</h4>
+        <p class="text-center">Osoite: <br>Katukuja 3 <br>02110 Espoo <br><br>Puhelin: <br>050 XXXX XXX</p>
+    </main>
+</body>
